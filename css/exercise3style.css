@@ -1,0 +1,64 @@
+.clearfix:after {
+	content:"";
+	visibility: hidden;
+	display:block;
+	height:0;
+	clear:both;
+}
+
+#wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+ul {
+	padding: 15px;
+}
+
+li {
+	padding: 10px;
+	border: 3px solid black;
+	list-style: none;
+	display: inline;
+	margin: 20px;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+nav {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.purple {
+	background-color: purple;
+}
+
+section {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#lcol {
+	width: 30%;
+	float: left;
+	border-right: 3px black solid;
+	margin: 15px;
+	padding-right: 10px;
+}
+
+#rcol {
+	margin: 15px;
+}
+
+footer {
+	background-color: red;
+	text-align: center;
+	font-size: 20px;
+}
+ 

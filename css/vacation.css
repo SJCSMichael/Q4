@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d2025;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin: 20px;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: #7dab9b;
+}
+
+a: hover {
+  color: #e47855;
+}
+
+a: visited {
+  color: white;
+}
+
+#logo {
+  height: 75px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+button {
+  background-color: #e47855;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 58px;
+  text-align: center;
+  color: #7dab9b;
+}
+
+.gallery {
+  width: 100%;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px 200px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "one one two three"
+  "one one four three"
+  "five six seven eight"
+  "nine nine ten ten"
+  "nine nine ten ten"
+  "footer footer footer footer";
+  grid-gap: 5px;
+}
+
+#one {
+  grid-area: one;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+#two {
+  grid-area: two;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#three {
+  grid-area: three;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+#four {
+  grid-area: four;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#five {
+  grid-area: five;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#six {
+  grid-area: six;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#seven {
+  grid-area: seven;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#eight {
+  grid-area: eight;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#nine {
+  grid-area: nine;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+#ten {
+  grid-area: ten;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+footer {
+  color: #e47855;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  grid-area: footer;
+ }
+
